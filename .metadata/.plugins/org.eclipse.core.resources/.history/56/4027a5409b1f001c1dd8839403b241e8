@@ -1,0 +1,12 @@
+
+public class Day3 {
+
+	public static void main(String[] args) {
+		//***********************LOOPS*****************
+		
+		//FOR LOOP
+		for(int var = 1 ; var < 10 ; var++) {
+			System.out.println(var);		}
+	}
+
+}

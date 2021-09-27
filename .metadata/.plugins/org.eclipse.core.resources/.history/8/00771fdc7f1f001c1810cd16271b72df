@@ -1,0 +1,69 @@
+
+//*******************Print in Java*****************************************
+public class Daytwo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello World");
+		System.out.println("Welcome");
+	
+	
+//********************Variables and Datatypes******************************
+	
+	byte age = 40;
+	short birthyear = 1999;
+	int pin = 1111;
+	long number = 4593950394L;
+	
+	char a ='A';
+	String b ="Sada F";
+
+//******************TypeCasting******************************************
+	
+	int myInt = 8;
+	double myDouble = myInt;
+	System.out.println(myDouble);     //Automatic Typecasting
+	
+	double myDoub = 7.0;
+	int myIn = (int) myDoub;
+	System.out.println(myIn);		//Manual Typecasting
+	
+//*******************IF ELSE*********************************************
+	
+	int myNum = 32;
+	
+	if(myNum % 2 ==0) {
+		System.out.println("even");
+	}
+	else {
+		System.out.println("odd");
+	}
+	
+//**********************Operators****************************************
+	
+	System.out.println(9 == 9);
+	System.out.println(2 == 20);
+	System.out.println(8 != 40);
+	System.out.println(30 > 40);
+	System.out.println(60 < 80);
+	System.out.println(50 >= 100);
+	System.out.println(100 <= 40);
+	
+	int myNum2 = 0;
+	
+	if (myNum2 == 0) {
+		System.out.println("Zero");
+	}
+	else if(myNum % 2 ==0) {
+		System.out.println("even");
+	}
+	else {
+		System.out.println("odd");
+	}
+	
+	}
+}
+
+
+
+	

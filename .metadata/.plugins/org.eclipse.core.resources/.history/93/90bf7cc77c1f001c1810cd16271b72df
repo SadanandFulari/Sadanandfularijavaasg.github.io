@@ -1,0 +1,47 @@
+
+//*******************Print in Java*****************************************
+public class Daytwo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello World");
+		System.out.println("Welcome");
+	
+	
+//********************Variables and Datatypes******************************
+	
+	byte age = 40;
+	short birthyear = 1999;
+	int pin = 1111;
+	long number = 4593950394L;
+	
+	char a ='A';
+	String b ="Sada F";
+
+//******************TypeCasting******************************************
+	
+	int myInt = 8;
+	double myDouble = myInt;
+	System.out.println(myDouble);     //Automatic Typecasting
+	
+	double myDoub = 7.0;
+	int myIn = (int) myDoub;
+	System.out.println(myIn);		//Manual Typecasting
+	
+//*******************IF ELSE*********************************************
+	
+	if (name == rahul):
+		System.out.println("yes");
+	else:
+		System.out.println("no");
+	
+	
+	
+	
+	
+	}
+}
+
+
+
+	

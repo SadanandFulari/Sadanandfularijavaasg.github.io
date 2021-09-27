@@ -1,0 +1,25 @@
+
+public class Day3 {
+
+	public static void main(String[] args) {
+		//***********************LOOPS*****************
+		
+		//FOR LOOP
+		for(int var = 1 ; var < 10 ; var++) {
+			System.out.println(var);		
+			}
+		System.out.println("Hello world");
+		
+		for(int num = 99 ; num >=1 ; num-=2) {
+			System.out.println(num);
+		}
+		
+		//printing table logic
+		
+		int myNUm = 10;
+		for(int a = 1 ; a <= 10 ; a++) {
+			System.out.println(a * myNum);
+		}
+	}
+
+}

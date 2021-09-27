@@ -1,0 +1,12 @@
+
+public class Largestno {
+
+	public static void main(String[] args) {
+		int n1 = 20;
+		int n2 = 60;
+		int n3 = 30;
+		
+
+	}
+
+}

@@ -1,0 +1,22 @@
+
+public class Count {
+
+	public static void main(String[] args) {
+		int num = 1234567869;
+		
+		int count = 1;
+		
+		if(num == 0) {
+			System.out.println(0);
+		}
+		else {
+			for(int j = num ; j > 0 ; j = j/10) {
+				count ++;
+			}
+			System.out.println(count);
+				
+		}
+
+	}
+
+}
